@@ -1,0 +1,16 @@
+{
+    "name": "yudhaang/equation",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "yudhaAng\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yudha Angga Wijaya",
+            "email": "auth.yudhaanggawijaya@gmail.com"
+        }
+    ],
+    "require": {}
+}
