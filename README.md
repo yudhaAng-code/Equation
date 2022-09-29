@@ -1,9 +1,9 @@
 # Equation PHP Library
 
 ![Current Version](https://img.shields.io/badge/version-v1.0.0-blue)
-![GitHub contributors](https://img.shields.io/github/contributors/yudhaAng-code/README-Template)
-![GitHub stars](https://img.shields.io/github/stars/yudhaAng-code/README-Template?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yudhaAng-code/README-Template?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/yudhaAng-code/Equation)
+![GitHub stars](https://img.shields.io/github/stars/yudhaAng-code/Equation?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yudhaAng-code/Equation?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/yudhaAng?style=social)
 
 A template for README files that can be used for your future projects. A small description about the project, shields as well as the link to your repo.
@@ -143,13 +143,13 @@ This section can also be called as `Resources` or `References`
 
 [//]: # (HyperLinks)
 
-[GitHub Repository]: https://github.com/yudhaAng-code/README-Template
-[GitHub Pages]: https://yudhaAng-code.github.io/README-Template
-[CONTRIBUTING.md]: https://github.com/yudhaAng-code/README-template/blob/master/CONTRIBUTING.md
-[tags]: https://github.com/yudhaAng-code/README-template/tags
+[GitHub Repository]: https://github.com/yudhaAng-code/Equation
+[GitHub Pages]: https://yudhaAng-code.github.io/Equation
+[CONTRIBUTING.md]: https://github.com/yudhaAng-code/Equation/blob/master/CONTRIBUTING.md
+[tags]: https://github.com/yudhaAng-code/Equation/tags
 
 [GitHub]: https://github.com/yudhaAng-code
 [LinkedIn]: https://www.linkedin.com/in/yudhaAng-code/
 
-[contributors]: https://github.com/yudhaAng-code/README-template/contributors
-[license]: https://github.com/yudhaAng-code/README-template/blob/master/LICENSE.md
+[contributors]: https://github.com/yudhaAng-code/Equation/contributors
+[license]: https://github.com/yudhaAng-code/Equation/blob/master/LICENSE
