@@ -1,6 +1,6 @@
 {
     "name": "yudhaang/equation",
-    "version": "1.0.0-beta",
+    "version": "1.0.0-dev",
     "license": "MIT",
     "type": "library",
     "autoload": {
