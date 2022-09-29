@@ -1,5 +1,7 @@
 {
     "name": "yudhaang/equation",
+    "version": "1.0.0-beta",
+    "License": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -9,8 +11,11 @@
     "authors": [
         {
             "name": "Yudha Angga Wijaya",
-            "email": "auth.yudhaanggawijaya@gmail.com"
+            "email": "auth.yudhaanggawijaya@gmail.com",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    }
 }
