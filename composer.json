@@ -1,7 +1,7 @@
 {
     "name": "yudhaang/equation",
     "version": "1.0.0-beta",
-    "License": "MIT",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
