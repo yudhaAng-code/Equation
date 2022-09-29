@@ -39,17 +39,17 @@ The project might have multiple branches: `master`, `development`, etc. which ca
 Other details that need to be given while starting out with the project can be provided in this section. A project structure like below can also be included for the big projects:
 
 ```
-	project-title
+	Equation
 	├── src
-	│   ├── Data
-    │   │   └── DefaultUnit.php
-    │   └── Example
-    │       ├── data.json
-    │       ├── DefaultUnit.php
-    │       └── Equation.php
+	│	├── Data
+	│	│	└── DefaultUnit.php
+	│	└── Example
+	│		├── data.json
+	│		├── DefaultUnit.php
+	│		└── Equation.php
 	├── .gitignore
 	├── composer.json
-    ├── LICENSE
+	├── LICENSE
 	└── README.md
 ```
 
