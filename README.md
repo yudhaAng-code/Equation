@@ -9,6 +9,8 @@
 Equation is php library for conversion qty by conversion ladder of units.
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduce](#introduce)
 - [Getting Started](#getting-started)
 	- [Requirement](#requirement)
 	- [Project Structure](#project-structure)
@@ -19,6 +21,18 @@ Equation is php library for conversion qty by conversion ladder of units.
 - [Advance Usage](#advance-usage)
 - [Authors](#authors)
 - [License](#license)
+
+## Introduce
+
+Dalam mengembangkan aplikasi yang mencatat data kuantitas barang dan bahan baku, sering kali kita dihadapkan permasalahan jumlah kuantitas berdasarkan satuan yang berbeda untuk barang yang sama.
+Contoh Transaksi:
+- Pembelian `Minyak` sebanyak 1 liter
+- Produksi produk menggunakan `Minyak` sebanyak 100 mililiter
+
+Pada kasus tersebut sering kali kita diminta untuk membuat laporan sisa ketersedian `Minyak` tersebut.
+Untuk membuat data yang valid, maka dibutuhkan sebuah library yang dapat membantu untuk memudahkan proses konversi kuantitas dalam satuan yang berbeda.
+`Equation` bermaksud untuk menjadi alat bantu konversi satuan pada barang agar dapat membantu memudahkan seorang software developer dalam mengembangkan sebuat aplikasi.
+Selamat menggunakan, semoga bermanfaat.
 
 ## Getting Started
 ### Requirement
