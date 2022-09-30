@@ -4,7 +4,7 @@ use yudhaAng\Equation;
 
 $equation = new Equation;
 
-$result     = $equation->convert(1.745,'kg','g');
+$result     = $equation->convert(1245,'g','dag');
 print_r($result);
 echo "\n";
 
