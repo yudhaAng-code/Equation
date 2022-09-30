@@ -41,7 +41,7 @@ Equation
 ```
 ### Installation
 ```
-    composer require yudhaang/equation
+composer require yudhaang/equation
 ```
 ## Basic Usage
 
