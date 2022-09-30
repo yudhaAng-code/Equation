@@ -26,18 +26,18 @@ Equation is php library for conversion qty by conversion ladder of units.
 
 ### Project Structure
 ```
-	Equation
-	├── src
-	│	├── Data
-	│	│	└── DefaultUnit.php
-	│	└── Example
-	│	│   ├── data.json
-	│	│	└── index.php
-	│	└── Equation.php
-	├── .gitignore
-	├── composer.json
-	├── LICENSE
-	└── README.md
+Equation
+├── src
+│	├── Data
+│	│	└── DefaultUnit.php
+│	├── Example
+│	│	├── data.json
+│	│	└── index.php
+│	└── Equation.php
+├── .gitignore
+├── composer.json
+├── LICENSE
+└── README.md
 ```
 ### Installation
 ```
