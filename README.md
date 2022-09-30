@@ -16,6 +16,7 @@ Equation is php library for conversion qty by conversion ladder of units.
 - [Basic Usage](#basic-usage)
 	- [Use the class](#use-the-class)
 	- [Function And Method](#function-and-method)
+- [Advance Usage](#advance-usage)
 - [Authors](#authors)
 - [License](#license)
 
@@ -114,6 +115,36 @@ Include the class into your php file and initialize to variable.
     // Output Number = 1745
     ```
 
+## Advance Usage
+* Customize options the field of units.
+    ```
+    $units_data = [
+        ['text'=>'kg', 'value' => 1],
+        ['text'=>'hg', 'value' => 10],
+        ['text'=>'dag', 'value' => 10],
+        ['text'=>'g', 'value' => 10],
+        ['text'=>'dg', 'value' => 10],
+        ['text'=>'mg', 'value' => 10]
+    ];
+    $options = [
+        'units'         => $units_data,
+        'unit_property' => 'text',
+        'qty_property'  => 'value'
+    ];
+    $equation   = new Equation($options);
+    $output     = $equation->convert(1245,'g','dag');
+    // Output Number = 1745
+    ```
+* Change the units conversion ladder.
+    ```
+    $units  = [
+        ['text'=>'l', 'value' => 1],
+        ['text'=>'ml', 'value' => 1000]
+    ];
+    $equation->units($units);
+    $output = $equation->convert(1,'l','ml');
+    // Output Number = 1000
+    ```
 ## Authors
 
 #### Yudha Angga Wijaya
