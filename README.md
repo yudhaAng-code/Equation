@@ -27,17 +27,17 @@ Equation is php library for conversion qty by conversion ladder of units.
 Dalam mengembangkan aplikasi yang mencatat data kuantitas barang dan bahan baku, sering kali kita dihadapkan permasalahan jumlah kuantitas berdasarkan satuan yang berbeda untuk barang yang sama.
 Contoh Transaksi:
 - Pembelian `Minyak` sebanyak 1 liter
-- Produksi produk menggunakan `Minyak` sebanyak 100 mililiter
+- Produksi sebuat produk menggunakan `Minyak` sebanyak 100 mililiter
 
-Pada kasus tersebut sering kali kita diminta untuk membuat laporan sisa ketersedian `Minyak` tersebut.
+Berdasarkan data transaksi diatas, sering kali kita diminta untuk membuat laporan sisa ketersedian `Minyak` tersebut.
 Untuk membuat data yang valid, maka dibutuhkan sebuah library yang dapat membantu untuk memudahkan proses konversi kuantitas dalam satuan yang berbeda.
-`Equation` bermaksud untuk menjadi alat bantu konversi satuan pada barang agar dapat membantu memudahkan seorang software developer dalam mengembangkan sebuat aplikasi.
+`Equation` bermaksud untuk menjadi alat bantu konversi satuan pada barang agar dapat membantu memudahkan seorang software developer dalam mengembangkan sebuah aplikasi.
 Selamat menggunakan, semoga bermanfaat.
 
 ## Getting Started
 ### Requirement
 * PHP Version >= 7.4
-* Composer
+* [Composer][composer]
 
 ### Project Structure
 ```
@@ -55,6 +55,8 @@ Equation
 └── README.md
 ```
 ### Installation
+Run composer via cli. 
+See composer [documentation][composerDocumentation].
 ```
 composer require yudhaang/equation
 ```
@@ -181,3 +183,6 @@ Include the class into your php file and initialize to variable.
 
 [contributors]: https://github.com/yudhaAng-code/Equation/contributors
 [license]: https://github.com/yudhaAng-code/Equation/blob/master/LICENSE
+
+[composer]: https://getcomposer.org
+[composerDocumentation]: https://getcomposer.org/doc
