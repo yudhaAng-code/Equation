@@ -32,7 +32,7 @@ Equation is php library for conversion qty by conversion ladder of units.
 	│	│	└── DefaultUnit.php
 	│	└── Example
 	│	│   ├── data.json
-	│	│ 	└── index.php
+	│	│	└── index.php
 	│	└── Equation.php
 	├── .gitignore
 	├── composer.json
